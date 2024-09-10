@@ -2,7 +2,7 @@ function downloadVideo() {
     const url = document.getElementById('videoUrl').value;
     const messageElement = document.getElementById('message');
     const loadingElement = document.getElementById('loading');
-
+ 
     if (!url) {
         messageElement.textContent = 'Please enter a URL.';
         return;
